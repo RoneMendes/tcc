@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cadastro de Clientes</string>
+    <string name="title_activity_act_main">Iron Store</string>
+    <string name="title_activity_cad_cliente">Cliente</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="lbl_endereco">Endereco</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_telefone">Telefone</string>
+    <string name="title_menu_ok">OK</string>
+    <string name="title_menu_cancelar">Menu</string>
+    <string name="title_aviso">Aviso</string>
+    <string name="message_campos_invalidos_brancos">Há campos inválidos ou em branco</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_Cpf">CPF</string>
+    <string name="title_activity_teste">Teste</string>
+    <string name="lbl_municipio">Municipio</string>
+    <string name="lbl_tel">Telefone</string>
+    <string name="txt_municipio">Município</string>
+    <string name="lbl_uf">UF</string>
+    <string name="lbl_Senha">Senha</string>
+    <string name="lbl_login">Email</string>
+    <string name="lbl_Senha2">Senha</string>
+    <string name="lbl_SemCad">Não possuo cadastro</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActMain"
+    tools:showIn="@layout/activity_act_main">
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/lbl_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/txtLogin"
+        app:layout_constraintStart_toStartOf="@+id/txtLogin"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogin" />
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/lbl_Senha2"
+        app:layout_constraintEnd_toEndOf="@+id/edtLogin"
+        app:layout_constraintStart_toStartOf="@+id/edtLogin"
+        app:layout_constraintTop_toBottomOf="@+id/edtLogin" />
+
+    <EditText
+        android:id="@+id/edtSenha2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txtSenha"
+        app:layout_constraintStart_toStartOf="@+id/txtSenha"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenha" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="login"
+        android:text="Entrar"
+        app:layout_constraintEnd_toEndOf="@+id/edtSenha2"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="198dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="cadastrar"
+        android:text="Não possuo cadastro"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/edtSenha2"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha2" />
+
+</android.support.constraint.ConstraintLayout>
